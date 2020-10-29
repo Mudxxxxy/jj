@@ -1,0 +1,58 @@
+body {
+    background: #0f172c;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.logo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    background: -webkit-linear-gradient(left, #c41f1f, #680f0f, #000000, #680f0f, #c41f1f); /* webkit это префикс для того что бы ТОЛЬКО Chrome, Safari и Opera мог использовать
+    инструкции, поэтому я добавил теже инструкции, но без webkit, чтобы не было привязки к одному только браузеру*/
+    background: linear-gradient(left, #c41f1f, #680f0f, #000000, #680f0f, #c41f1f);
+    background-size: 900px 200px;
+    color: transparent;
+    background-clip: text;
+    animation: animate-logo;
+    animation-delay: 0;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    -webkit-background-clip: text;
+    -webkit-animation: animate-logo;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-logo { /* keyframes нужен чтобы анимация работала, это правило устанавливает ключевые кадры анимации */
+    0% {background-position: 0 900px;}
+    100% {background-position: 900px 0;}
+}
+
+.upMenu {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.upMenu_Link {
+    text-decoration: none;
+    color: #c41f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.upMenu_Link:hover {
+    color: #680f0f;
+}
