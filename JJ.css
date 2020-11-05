@@ -56,3 +56,40 @@ body {
 .upMenu_Link:hover {
     color: #680f0f;
 }
+
+.main {
+    color: #c41f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 3% 5% 0% 5%;
+}
+
+h2 {
+    color: #c41f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.table {
+    background-image: url(images/dress.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    padding: 13em;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
