@@ -75,14 +75,14 @@ h2 {
     margin-top: 5%;
 }
 
-.table {
+.table-first {
     background-image: url(images/dress.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .container {
-    padding: 13em;
+    padding: 10em;
     display: flex;
     justify-content: center;
 }
@@ -92,4 +92,42 @@ h2 {
     font-style: oblique;
     font-weight: bold;
     text-align: center;
+}
+
+.in_box {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.table-second {
+    background-image: url(images/footwear.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.table-third {
+    background-image: url(images/accesories.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #151515;
+}
+
+.cool {
+    display:inline-flex;
+    justify-content:space-between;
+}
+
+ul {
+    list-style-type: none;
 }
